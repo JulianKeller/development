@@ -34,3 +34,9 @@ https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/test
 cd docs
 bundle exec jekyll serve
 ```
+
+## Update
+
+```dtd
+bundle update github-pages
+```
