@@ -38,5 +38,5 @@ bundle exec jekyll serve
 ## Update
 
 ```dtd
-bundle update github-pages
+bundle update
 ```

@@ -30,9 +30,16 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: minima
+# pull in the dark mode jekyll theme
+remote_theme: jekyll/minima
+minima:
+  skin: dark
+  date_format: "%b %-d, %Y"
+
 plugins:
   - jekyll-feed
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
