@@ -18,3 +18,11 @@ bundle config set --local path 'vendor/bundle'
 bundle install
 git add Gemfile Gemfile.lock
 ```
+
+Create the jekyll site in the docs directory
+```dtd
+mkdir docs
+cd docs
+bundle config set --local path '../vendor/bundle'
+bundle install
+```
