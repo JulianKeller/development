@@ -1,8 +1,11 @@
 # development
 
 ## Prerequisites
-Install Ruby 
 
+Building a Jekyll site following: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
+
+
+Install Ruby
 Install Bundler
 
 ```bash
