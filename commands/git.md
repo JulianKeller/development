@@ -6,6 +6,21 @@ See changes made to a specific directory
 git log -- my_directory
 ```
 
+put things into columns
+```
+git log --column
+```
+or
+```
+git config --global columnui auto
+git config --global branch.sort -committerdate
+```
+
+put anything into columns 
+```
+seq 1 24 | git column --mode=column --padding=5
+```
+
 ## Useful Git Configurations and Aliases
 
 ```shell
