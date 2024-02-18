@@ -36,11 +36,11 @@ git maintenance start
 ## Useful Git Configurations and Aliases
 
 ```shell
-git config --global alias.lg=log --graph --pretty=format:'%Cgreen%ad - %Cred%h%Creset -%C(yellow)%d%Creset %s %C(bold blue)<%an>%Creset' --abbrev-commit ==date=format:'%m-%d-%Y'
+git config --global alias.lg "log --graph --pretty=format:'%Cgreen%ad - %Cred%h%Creset -%C(yellow)%d%Creset %s %C(bold blue)<%an>%Creset' --abbrev-commit --date=format:'%m-%d-%Y'"
 git config --global alias.checkout-pr=!f() {git fetch -fu ${2:-upstream} refs/pull-requests/$1/from:pr/$1 && git checkout pr/$1; } ; f
-git config --global alias.recent=branch -l --sort=committerdate
-git config --global alias.hash=rev-parse HEAD
+git config --global alias.recent "branch -l --sort=committerdate"
+git config --global alias.hash "rev-parse HEAD"
 ```
 ```shell
-rerere.enabled=true
+git config --global rerere.enabled true
 ```
